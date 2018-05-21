@@ -1,0 +1,127 @@
+
+body{
+	margin: 50px;
+}
+
+h2{
+   font-size: 30px;
+  font-family: 'Playfair Display', serif;
+   color: rgb(98, 98, 98);
+}
+
+h4{
+   font-size: 14px;
+   font-family: 'Ubuntu' , serif;
+   color: rgb(180, 173, 158);
+}
+
+header{
+   width: 100%;
+   min-height: 100px;
+}
+
+header li{
+	float: right;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.header--logo{
+    float: left;
+}
+
+
+
+.container{
+	width: 90%;
+	margin-left: 50px;
+
+}
+
+.container img{
+	width: 100%;
+	height: 400px;
+}
+
+main{
+	width: 100%;
+	min-height: 500px;
+}
+
+
+.main--banner img{
+	width: 100%;
+	margin-top: 30px;
+
+}
+
+
+.main--lyfestyle__new1,
+.main--lyfestyle__new2,
+.main--photodiary__new3,
+.main--photodiary__new4,
+.main--lyfestyle__new5,
+.main--lyfestyle__new6{
+	display: inline-block;
+    width: 40%;
+    margin: 5%;
+
+}
+
+.main--lyfestyle__new2,
+.main--photodiary__new4,
+.main--lyfestyle__new6{
+	float: right;
+}
+
+.main--email{
+	width: 100%;
+	height: 100px;
+	background: #eee;
+	text-align: center;
+	
+}
+
+.main--button{
+	width: 150px;
+	height: 60px;
+	border: 1px solid black;
+    margin: auto;
+
+}
+
+.main--button a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	padding-top:  20px;
+
+}
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #eee;
+}
+
+
+
+
+footer a{
+	text-decoration: none;
+	color:#222;
+}
+
+.footer--list__follow li{
+	display: inline-block;
+	float: right;
+}
+
+.footer--list__follow li{
+	width: 10px;
+	height: 10px;
+	margin: 20px;
+}
